@@ -1,0 +1,49 @@
+<div class="accesos">
+    <div class="col">
+        <a class="acceso" href="./admin/login">Acceso Privado</a>
+    </div>
+</div>
+
+<div class="contacto">
+    <h2>¿Antojado de comer algo dulce?
+        <h2>¡Escribinos!</h2>
+        <form action="/contacto" method='post' class="formulario">
+            <p>
+                <label for="">Nombre</label>
+                <input type="text" name="nombre" required>
+            </p>
+            <p>
+                <label for="">Email</label>
+                <input type="email" name="email" required>
+            </p>
+            <p>
+                <label for="">Teléfono</label>
+                <input type="text" name="tel" required>
+            </p>
+            <p>
+                <label for="">Mensaje</label>
+                <textarea name="comentarios" required></textarea>
+            </p>
+            <p class="centrar"><input type="submit"></p>
+        </form>
+        {{#if message}}
+        <p>{{message}}</p>
+        {{/if}}
+</div>
+
+<div class="redes">
+    <h2>Otras vías de contacto</h2>
+    <p>También podés contactarte con nosotros por estos medios: </p>
+    <ul>
+        <li>Teléfono 0351 - 157 111111</li>
+        <li>Facebook: /cakesandmore</li>
+        <li>Instagram /cakesandmore</li>
+    </ul>
+    <img src="images/logo.png" alt="logo" width="250px" height="250px">
+
+</div>
+
+
+
+
+</main>

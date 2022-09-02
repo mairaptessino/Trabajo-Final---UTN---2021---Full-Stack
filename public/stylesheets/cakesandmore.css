@@ -1,0 +1,336 @@
+/* bodyfont-family: 'Open Sans', sans-serif; */
+
+body{
+    font-family: 'Monserrat', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header{
+    background-color: plum;
+    padding: 16px 0;
+   }
+
+
+nav{
+    background-color: purple;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 19.6%;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 7px;
+    display: block;
+}
+
+nav ul li a:hover{
+    background-color: plum;
+}
+
+nav ul li a.activo{
+    background-color: indianred;
+}
+
+footer{
+    background-color:plum;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.accesos{
+    margin-left: 87%;
+    margin-top: 1%; 
+    /* margin-bottom: -8%; */
+    /* padding-left: 10%; */
+}
+
+.acceso{
+    color:white;
+    background-color:tomato;
+    border-color: gray;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.sociales{
+    width: 37%;
+    margin-top: 5%;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.sociales .centrar{
+    text-align: center;
+    background-color: lightpink;
+}
+
+.sociales .logo{
+    text-align: center;
+}
+
+
+.sociales h2{
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px plum;
+    border-radius: 20%;
+}
+
+.sociales .verproductos{
+    box-shadow: none;
+    border-radius: none;
+    margin-top: 75px;
+}
+
+.inicios{
+    width: 63%;
+    float: left;
+    margin-top: 5%;
+}
+
+.inicio p{
+    font-size: 18px;
+    line-height: 26px;
+    width: 85%;
+    
+}
+
+.precio{
+    color:black;
+    background-color: pink
+}
+
+.testimonios{
+    width: 100%;
+    margin-top: 35px;
+    text-align: center;
+}
+
+
+.testimonio{
+    background-color: pink;
+    padding: 18px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.testimonio .cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    display: block;
+}
+
+.testimonio .autor{
+    font-size: 13px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+
+/* fin de inicio */
+/* comienzo de nosotros */
+
+
+
+.nosotros{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.nosotros img{
+    border-radius: 20%;
+    box-shadow: 0 0 10px salmon;
+}
+
+
+
+/* fin de nosotros */
+
+/* inicio de productos */
+
+.lateral{
+    width: 15%;
+    background-color:plum;
+    margin-top: 5%;
+    float: left;
+    display: inline-flex;
+    flex-direction: column;   
+}
+
+.lateral h2{
+    color: #000;
+    text-align: center;
+}
+
+.productos{
+    width: 80%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    float: right;
+}
+
+.producto{
+    width: 33%;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.producto img{
+    box-shadow: 0 0 10px gray;
+    padding: auto;
+}
+
+
+.empresarial{
+    width: 48%;
+    margin-top: 5%;
+    float: left; 
+}
+
+
+.cumpleaños{
+    width: 48%;
+    margin-top: 5%;
+    float: right;
+}
+
+
+.eventos h2{
+    font-size: 18px;
+}
+
+.eventos img{
+    box-shadow: 0 0 10px gray;
+    padding: auto;
+}
+
+
+.boton{
+        text-decoration:none;
+        font-weight: 400;
+        font-size: 18px;
+        color:#ffffff;
+        padding-top:4px;
+        padding-bottom:4px;
+        padding-left:13px;
+        padding-right:13px;
+        background-color:plum;
+        border-color: purple;
+        border-width: 2px;
+        border-style: solid;
+        display: inline-flex;
+        position: relative;
+        left: 35%;
+        margin-bottom: 50px;
+        margin-top: 15px;
+        width: 22%;
+}
+
+
+
+/* fin de productos */
+
+
+
+/* inicio de compras */
+
+
+
+.compras{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.logo img{
+    border-radius: 20%;
+
+}.compras h2{
+    font-size: 18px;
+}
+
+
+/* fin de compras */
+
+/* inicio contacto */
+
+.contacto,
+.redes{
+    width: 50%;
+    margin-top: 5%;
+
+}
+
+.contacto{
+float: left;
+}
+
+.redes{
+    float: right;
+}
+
+.formulario label{
+    width:22%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.formulario input,
+.formulario textarea{
+    background-color: #ddd;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 90%;
+    padding: 5px;
+    font-size: 13px;
+    box-shadow: 0 0 5px#ddd;
+}
+
+.formulario textarea{
+    height: 100px;
+    resize: none;
+}
+
+.formulario input[type="submit"]{
+    width: auto;
+    background-color: plum;
+    color: black;
+    box-shadow: 0 0 10px gray;
+    
+}
+
+.formulario .centrar{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.redes img{
+    position: relative;
+    left: 100px;
+}
+/* fin de contacto */
